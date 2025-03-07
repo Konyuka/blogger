@@ -23,11 +23,11 @@ class AppServiceProvider extends ServiceProvider
     {
         Filament::serving(function () {
             Filament::registerNavigationItems([
-                NavigationItem::make('thecodeholic.com')
-                    ->url('https://thecodeholic.com', shouldOpenInNewTab: true)
-                    ->icon('heroicon-o-globe-alt')
-                    ->group('Content Creator')
-                    ->sort(3),
+                // NavigationItem::make('Threat Research.com')
+                //     ->url('https://Threat Research.com', shouldOpenInNewTab: true)
+                //     ->icon('heroicon-o-globe-alt')
+                //     ->group('Content Creator')
+                //     ->sort(3),
             ]);
         });
     }

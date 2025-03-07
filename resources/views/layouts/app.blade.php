@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{{ $metaTitle ?: 'TheCodeholic Blog' }}</title>
-    <meta name="author" content="TheCodeholic">
+    <title>{{ $metaTitle ?: 'Threat Research Blog' }}</title>
+    <meta name="author" content="Threat Research">
     <meta name="description" content="{{ $metaDescription }}">
 
     <style>
@@ -26,7 +26,7 @@
 <header class="w-full container mx-auto">
     <div class="flex flex-col items-center py-12">
         <a class="font-bold text-gray-800 uppercase hover:text-gray-700 text-5xl" href="{{route('home')}}">
-            TheCodeholic Blog
+            Threat Research
         </a>
         <p class="text-lg text-gray-600">
             {{ \App\Models\TextWidget::getTitle('header') }}

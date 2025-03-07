@@ -1,4 +1,4 @@
-<x-app-layout meta-title="TheCodeholic Blog"
+<x-app-layout meta-title="Threat Research Blog"
               meta-description="Lorem ipsum dolor sit amet, consectetur adipisicing elit">
     <div class="container max-w-4xl mx-auto py-6">
 
@@ -61,7 +61,6 @@
         </div>
 
         <!-- Latest Categories -->
-
         @foreach($categories as $category)
             <div>
                 <h2 class="text-lg sm:text-xl font-bold text-blue-500 uppercase pb-1 border-b-2 border-blue-500 mb-3">

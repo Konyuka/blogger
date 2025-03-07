@@ -101,9 +101,6 @@ class PostController extends Controller
 
         // Show recent categories with their latest posts
         $categories = Category::query()
-//            ->with(['posts' => function ($query) {
-//                $query->orderByDesc('published_at');
-//            }])
             ->whereHas('posts', function ($query) {
                 $query
                     ->where('active', '=', 1)

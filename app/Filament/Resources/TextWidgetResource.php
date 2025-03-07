@@ -17,7 +17,7 @@ class TextWidgetResource extends Resource
 {
     protected static ?string $model = TextWidget::class;
 
-    protected static ?string $navigationIcon = 'heroicon-o-collection';
+    protected static ?string $navigationIcon = 'heroicon-o-collection'; 
 
     protected static ?string $navigationGroup = 'Content';
 
