@@ -20,5 +20,14 @@ class DatabaseSeeder extends Seeder
 
         $adminRole = Role::create(['name' => 'admin']);
         $adminUser->assignRole($adminRole);
+
+        $adminUser2 = User::factory()->create([
+            'email' => 'kombal@acentriagroup.com',
+            'name' => 'Admin',
+            'password' => bcrypt('password')
+        ]);
+        $adminUser2->assignRole($adminRole);
+
+
     }
 }
